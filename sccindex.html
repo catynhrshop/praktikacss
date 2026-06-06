@@ -1,34 +1,108 @@
-Mime-Version: 1.0
-Content-Base: https://online-bloknot.ru/
-Content-Type: Multipart/related; boundary="NEXT.ITEM-BOUNDARY";type="text/html"
-
---NEXT.ITEM-BOUNDARY
-Content-Type: text/html; charset="utf-8"
-Content-Location: https://online-bloknot.ru/
-
 <!DOCTYPE html>
-<html xmlns:o="urn:schemas-microsoft-com:office:office" 
-xmlns:w="urn:schemas-microsoft-com:office:word" 
-xmlns="http://www.w3.org/TR/REC-html40">
+<html lang="ru">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:View>Print</w:View>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
- </w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
- </w:LatentStyles>
-</xml><![endif]-->
-<style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Практическая работа CSS</title>
 
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: white;
+    }
+
+    .page {
+        width: 1000px;
+        height: 800px;
+        margin: 50px auto 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        width: 700px;
+        height: 100px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        font-size: 24px;
+        border: 1px solid black;
+    }
+
+    .datetime {
+        width: 250px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+        font-size: 22px;
+        border: 1px solid black;
+    }
+
+    .content {
+        width: 100%;
+        height: 300px;
+        background-color: green;
+        color: white;
+        text-align: center;
+        line-height: 300px;
+        font-size: 28px;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        line-height: 100px;
+        font-size: 24px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
 </style>
 </head>
-<body><div style="font-family:Calibri,sans-serif;font-size:11pt;"><p>&lt;!DOCTYPE html&gt;</p><p>&lt;html lang="ru"&gt;</p><p>&lt;head&gt;</p><p>&lt;meta charset="UTF-8"&gt;</p><p>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p><p>&lt;title&gt;Практическая работа CSS&lt;/title&gt;</p><p>&nbsp;</p><p>&lt;style&gt;</p><p>&nbsp; &nbsp; body {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; margin: 0;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; font-family: Arial, sans-serif;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; background:white;mso-highlight:white;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .page {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; width: 1000px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; height: 800px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; margin: 50px auto 0;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .header {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; display: flex;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; justify-content: space-between;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; margin-bottom: 20px;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .menu {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; width: 700px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; background:red;mso-highlight:red;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; color: white;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; text-align: center;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; line-height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; font-size: 24px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; border: 1px solid black;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .datetime {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; width: 250px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; background:black;mso-highlight:black;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; color: white;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; text-align: center;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; line-height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; font-size: 22px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; border: 1px solid black;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .content {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; width: 100%;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; height: 300px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; background:green;mso-highlight:green;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; color: white;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; text-align: center;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; line-height: 300px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; font-size: 28px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; border: 1px solid black;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; box-sizing: border-box;</p><p>&nbsp; &nbsp; }</p><p>&nbsp;</p><p>&nbsp; &nbsp; .footer {</p><p>&nbsp; &nbsp; &nbsp; &nbsp; width: 100%;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; background:yellow;mso-highlight:yellow;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; color: black;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; text-align: center;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; line-height: 100px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; font-size: 24px;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; border: 1px solid black;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; box-sizing: border-box;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; margin-top: 20px;</p><p>&nbsp; &nbsp; }</p><p>&lt;/style&gt;</p><p>&lt;/head&gt;</p><p>&nbsp;</p><p>&lt;body&gt;</p><p>&nbsp;</p><p>&lt;div class="page"&gt;</p><p>&nbsp;</p><p>&nbsp; &nbsp; &lt;div class="header"&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="menu"&gt;Верхнее меню&lt;/div&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="datetime" id="clock"&gt;&lt;/div&gt;</p><p>&nbsp; &nbsp; &lt;/div&gt;</p><p>&nbsp;</p><p>&nbsp; &nbsp; &lt;div class="content"&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; Зона содержимого</p><p>&nbsp; &nbsp; &lt;/div&gt;</p><p>&nbsp;</p><p>&nbsp; &nbsp; &lt;div class="footer"&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; Футер</p><p>&nbsp; &nbsp; &lt;/div&gt;</p><p>&nbsp;</p><p>&lt;/div&gt;</p><p>&nbsp;</p><p>&lt;script&gt;</p><p>function updateClock() {</p><p>&nbsp; &nbsp; const now = new Date();</p><p>&nbsp; &nbsp; document.getElementById("clock").innerHTML =</p><p>&nbsp; &nbsp; &nbsp; &nbsp; now.toLocaleDateString() + "&lt;br&gt;" +</p><p>&nbsp; &nbsp; &nbsp; &nbsp; now.toLocaleTimeString();</p><p>}</p><p>&nbsp;</p><p>updateClock();</p><p>setInterval(updateClock, 1000);</p><p>&lt;/script&gt;</p><p>&nbsp;</p><p>&lt;/body&gt;</p><p>&lt;/html&gt;</p></div></body></html>
---NEXT.ITEM-BOUNDARY--
+
+<body>
+
+<div class="page">
+
+    <div class="header">
+        <div class="menu">Верхнее меню</div>
+        <div class="datetime" id="clock"></div>
+    </div>
+
+    <div class="content">
+        Зона содержимого
+    </div>
+
+    <div class="footer">
+        Футер
+    </div>
+
+</div>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    document.getElementById("clock").innerHTML =
+        now.toLocaleDateString() + "<br>" +
+        now.toLocaleTimeString();
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+
+</body>
+</html>
